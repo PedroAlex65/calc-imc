@@ -1,0 +1,37 @@
+table {
+    margin-top: 0px;
+    width: 820px;
+    height: 250px;
+
+    th {
+        color: #1f5eaf;
+        font-size: 20px;
+    }
+
+
+
+    td {
+        border-top: 1px solid #A9A9A9;
+        text-align: center;
+    }
+
+    .tr-border {
+        border-bottom: 1px solid #A9A9A9;
+    }
+}
+
+h3 {
+    height: 50px;
+    margin-top: 20px;
+    color: red;
+    border-radius: 30px;
+    text-align: start;
+    padding: 15px;
+    background-color: #1f5eaf;
+    color: #fff;
+}
+
+.tr-one{
+    background-color: #E0FFFF;
+}
+
