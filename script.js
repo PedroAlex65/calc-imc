@@ -41,11 +41,6 @@ function valueInputs() {
     if(value >= 40.0){
         trFive.style.background = ' #E0FFFF'
     }
-
-    
-    
-
-
 }
 
 
@@ -54,5 +49,29 @@ bnt.addEventListener('click', valueInputs)
 
 
 
+const btnTwo = document.getElementById('bnt-two')
+
+function clearInput(){
+
+     document.getElementById('inputOne').value = ' '
+    document.getElementById('inputTwo').value = ' '
+
+    const bntThree = document.querySelector('.bnt-three')
+    bntThree.style.display = 'none'
 
 
+    const trOne = document.querySelector('.tr-one')
+    trOne.style.background = ' #fff'
+    const trTwo = document.querySelector('.tr-two')
+    trTwo.style.background = ' #fff'
+    const trThree= document.querySelector('.tr-three')
+    trThree.style.background = ' #fff'
+    const trFour = document.querySelector('.tr-four')
+    trFour.style.background = ' #fff'
+    const trFive = document.querySelector('.tr-five')
+    trFive.style.background = ' #fff'
+
+}
+
+
+btnTwo.addEventListener('click', clearInput)
